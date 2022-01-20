@@ -2,6 +2,10 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5em;
 }
+.delete-status {
+    color: red;
+    font-weight: bold;
+}
 .avatar {
     width: 100px;
 }

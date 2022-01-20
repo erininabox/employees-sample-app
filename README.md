@@ -7,7 +7,7 @@ Using React, build a UI that:
 [x] 2. Renders the list of employees, with each employee displayed in a summarized form.
 [x] 3. Allows a user to expand each employee to show the additional details about each employee.
 4. Allows a user to expand the entire list of employees at once using something like an "Expand All" button.
-5. Allows a user to delete an employee from the system.
+[x] 5. Allows a user to delete an employee from the system.
 6. **BONUS:** Implement some kind of updating functionality for one or more fields on the employee.
 
 A few helpful tips:

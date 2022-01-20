@@ -1,0 +1,9 @@
+Do they use Babel + Jest at Toro? Is this a preference or a requirement?
+    --> installed Jest, babel-jest, babel/preset-react to try out--seems pretty straightforward
+Is Jest an alternative to Mocha? Or are these complementary tools? How do they compare?
+
+
+
+Notes for self:
+- Babel is a JS compiler with presets and plugins for different frameworks. Not necessarily a dependency here. Just included in the yarn.lock file
+- Jest is a testing framework. This came with Jest-dom as a dev dependency presumably for testing our code later. Installed Jest to try out. 

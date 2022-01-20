@@ -1,0 +1,15 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+}
+.avatar {
+    width: 100px;
+}
+/* The following is helper styling, not meant to look good */
+.employee-block {
+    border: 1px solid black;
+}
+
+.all-employees {
+    border: 1px solid red;
+}

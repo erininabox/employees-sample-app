@@ -2,7 +2,8 @@ import { useState } from "react";
 
 
 const Employee = (props) => {
-    const [showMore, setShowMore] = useState(false);
+    const [toggleAll, setToggleAll] = useState(props.expand);
+    const [showMore, setShowMore] = useState(toggleAll);
     const [buttonText, setButtonText] = useState("Show More");
     const [status, setStatus] = useState();
 
@@ -22,7 +23,7 @@ const Employee = (props) => {
             ? (<div className="delete-status">{status}</div>) 
             : (
                 <div className="employee-info">
-                    <img className="avatar" src={props.employee.avatar} />
+                    <img className="avatar" src={props.employee.avatar} alt={props.employee.firstName + " " + props.employee.lastName} />
                     <br />Name: {props.employee.firstName} {props.employee.lastName}
                     <br />ID: {props.employee.id}
                     <br />Email: {props.employee.email}
